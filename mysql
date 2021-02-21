@@ -1,0 +1,46 @@
+create datavbsae <name>;
+show database;
+use database;
+create table table_name(column_name1 datatype1,cloumn_name2 datatype2,...);
+
+select * from table_name;
+select * from table_name where condition;
+update table_name set column_name=value where condition;
+select * from table_name order by column_name ASC|DESC;
+insert into table_name values();
+select * from table_name limit value;
+
+
+select min(column_name) from table_name where condition;
+select max(column_name) from table_name where condition;
+select Count(column_name) from table_name where condition;
+select sum(cloumn_name) from table_name where condition;
+select avg(column_name) from table_name where condition;
+
+select * from table_name where column_name like "pattern"
+
+pattern
+
+a%-----------------------starts with "a"
+%a-----------------------ends with "a"
+%vi%---------------------finds the value that have "vi" in any position
+_r%----------------------find the value that have "r" in second position
+a_%----------------------starts with "a" and are atleast 2 characters length
+a__%---------------------starts with "a" and are atleast 3 character length
+a%h----------------------starts with "a" and end with "h"
+
+
+wildcards
+%----------------------------Represents Zero or more characters
+_----------------------------Represents a single character
+[]---------------------------Represents any single character within the brackets
+^----------------------------represents any character not in brackets
+'-'-------------------------Represents a set of characters
+
+In oprator:
+	In operator allows you to specify multiple values in where clause
+
+	**select column_name from table_name where column_name in(select statment)
+
+Between Operator:
+	The Between operator selects values within a given range.
