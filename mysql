@@ -1,9 +1,13 @@
+INT,BIGINT,SMALLINT
+Real
+"--" comments 
 create datavbsae <name>;
 show database;
 use database;
 create table table_name(column_name1 datatype1,cloumn_name2 datatype2,...);
 
 select * from table_name;
+	where * is a wildcard
 select * from table_name where condition;
 update table_name set column_name=value where condition;
 select * from table_name order by column_name ASC|DESC;
@@ -44,3 +48,11 @@ In oprator:
 
 Between Operator:
 	The Between operator selects values within a given range.
+
+
+Join
+inner join
+left outer join
+right outer join
+full outer join
+

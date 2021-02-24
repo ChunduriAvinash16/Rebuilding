@@ -6,6 +6,6 @@ people=[
 ]
 
 
-people.sort(key=lambda people:people["Name"])
-
+#people.sort(key=lambda people:people["Reg_no"])
+people.sort(key=lambda people:people["Reg_no"],reverse=True)
 print(people)
