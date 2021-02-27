@@ -1,0 +1,5 @@
+Hello Good morning,
+How can i help you?
+What is your good name?
+Where are you from?
+What is the food?

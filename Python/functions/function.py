@@ -41,8 +41,3 @@ z=outer()
 print(z)
 z()
 '''
-
-'''
-Decorators:
-    
-'''
