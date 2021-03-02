@@ -19,16 +19,26 @@ File Handling:
             file_obj=open("filename.extension","mode of operation")
             return type of open() function is an file_obj address 
             default mode is read mode
-    read():In is used to readt the data present in te file.
+    read():In is used to read the data present in te file.
+    write():write method take only string as an argument but other type of data not possible
+            to overcome that we will use parsing technique present in python
+            JSON(Java Script Object Notataion):
+                dumps():convert original data into json format (string type)
+                loads():convert json format into original data
+                read():to read the contents of json
+                write():to write the contents into file
+
 '''
 
 
 '''while creating a file through the program the mode of operation should be w'''
+
 '''file=open("hello2.txt","a")
 data="\nWhat is the food?"
 file.write(data)
 file.close()
 '''
+
 file=open("hello.txt","r")
 data=file.read()
 print(data)

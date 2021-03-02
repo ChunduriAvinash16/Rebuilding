@@ -1,7 +1,7 @@
 INT,BIGINT,SMALLINT
 Real
 "--" comments 
-create datavbsae <name>;
+create databsae <name>;
 show database;
 use database;
 create table table_name(column_name1 datatype1,cloumn_name2 datatype2,...);
